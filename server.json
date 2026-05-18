@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/simbad",
+  "title": "Simbad",
+  "description": "CDS SIMBAD — astronomical object database (~14M objects) via TAP/script",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/simbad",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-simbad",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/simbad/mcp"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-simbad",
+  "version": "0.1.0",
+  "description": "CDS SIMBAD — astronomical object database (~14M objects) via TAP/script",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "simbad"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-simbad"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
